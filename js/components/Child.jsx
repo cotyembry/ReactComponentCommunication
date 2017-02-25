@@ -1,6 +1,5 @@
 import React from 'react';
 
-// var self;
 
 export default class Child extends React.Component {
 	constructor(props) {
@@ -9,11 +8,6 @@ export default class Child extends React.Component {
 		this.state = {
 			count: 0
 		}
-
-		// self = this;
-
-
-		// console.log('here', this.props.updateStoreCallback)
 
 		//by passing in the prop to this Child component of what the keyId is, this allows me to access the Parent's store by using this keyId prop value (since this keyId value is the hash key to the Child's state)
 		//I will set updateStore up as a local method tied to this component
